@@ -14,7 +14,7 @@ import {
 import Navbar from "../components/Navbar";
 import NoOrderMessage from "../components/Noordermessage";
 
-const MyOrder = () => {
+const OrderDetails = () => {
   const [orderData, setOrderData] = useState([]);
   const [userName, setUserName] = useState("");
 
@@ -192,4 +192,4 @@ const OrderItem = ({ item }) => (
   </MDBRow>
 );
 
-export default MyOrder;
+export default OrderDetails;

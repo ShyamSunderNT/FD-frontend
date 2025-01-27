@@ -7,7 +7,7 @@ import Login from './screens/Login';
 import Userprofile from './screens/Userprofile';
 import Feedback from './screens/Feedback';
 import Cards from './screens/Cart';
-import MyOrder from './screens/Myorder';
+import MyOrder from './screens/OrderDetails';
 
 
 
