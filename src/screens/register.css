@@ -1,0 +1,114 @@
+
+.card {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  @media (min-width: 992px) {
+    .card {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .card {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      width: 90%;
+    }
+  }
+  .form-group {
+    margin-bottom: 25px; /* Adjust the value to control the gap */
+  }
+  
+  /* Card Body Background */
+  .form-background {
+    
+    border-radius: 15px;
+    width: 800px;
+    height: 800px;
+    
+  }
+  
+  /* Shared Input Styles */
+  .shared-input {
+    background-color: white;
+    color: #2a2e33;
+    border: 1px solid #222222;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 10px;
+    height: 40px;
+    font-size: larger;
+    padding-left: 20px;
+  }
+
+  .shared-input::placeholder {
+    color: #797777; 
+    font-size: 16px; 
+  }
+  
+  /* Image Preview */
+  .image-preview {
+    margin-right: 500px;
+    border-radius: 30%;
+    margin-bottom: 10px;
+  }
+  .image-preview img {
+    border-radius: 30%;
+    width: 100px; /* Adjust width as needed */
+    margin-bottom: 2px;
+    margin-left: 10px;
+  }
+  .select{
+    margin-left: 10px;
+    margin-bottom: px;
+  }
+  
+  /* Fetch Location Button */
+  .fetch-location {
+    color: #0b7ef8;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .fetch-location:hover {
+    text-decoration: underline;
+  }
+  
+  /* Register Button */
+  .register-button {
+    width: 60%;
+    padding: 12px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: #0e6de2;
+    font-size: x-large;
+    color: #ffffff;
+  }
+  
+  /* Already User Link */
+  .already-user {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .already-user span {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .already-user:hover {
+    color: black;
+  }
+  .title{
+    text-align: center;
+    font-size: 24px;
+    color: #0d73f0 !important;
+    margin-top: 10px;
+  }

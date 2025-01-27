@@ -1,0 +1,91 @@
+/* Card styles */
+.card {
+    margin: 0 auto; /* Center the card */
+    width: 50%; /* Default width */
+  }
+  
+  /* Media query for desktops */
+  @media (min-width: 992px) {
+    .card {
+      width: 50%; /* Adjust width for desktops */
+    }
+  }
+  
+  /* Media query for tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .card {
+      width: 70%; /* Adjust width for tablets */
+    }
+  }
+  
+  /* Media query for phones */
+  @media (max-width: 767px) {
+    .card {
+      width: 90%; /* Adjust width for phones */
+    }
+  }
+  
+  /* Common styles for the form */
+  .form-background {
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  .text-primary {
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .text-danger {
+    color: #dc3545; /* Bootstrap danger color */
+  }
+  
+  .text-success {
+    color: #28a745; /* Bootstrap success color */
+  }
+  
+  .text-black {
+    color: #000000;
+  }
+  
+  .text-decoration-none {
+    text-decoration: none;
+  }
+  
+  .text-decoration-underline {
+    text-decoration: underline;
+  }
+  
+  /* Button styles */
+  button {
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  /* Divider styles */
+  hr {
+    height: 2px;
+    background-color: black;
+  }
+  
+  /* Link styles */
+  .link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Shared input styles */
+  .inputbox1 {
+    background-color: white;
+    color: #2a2e33;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  

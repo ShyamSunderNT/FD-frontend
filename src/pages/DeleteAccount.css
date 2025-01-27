@@ -1,0 +1,29 @@
+/* Delete Account Modal */
+.delete-title {
+    color: #ed1b19;
+  }
+  
+  .password-input {
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  .password-input:focus {
+    border-color: #fb641b;
+    box-shadow: 0 0 5px rgba(251, 100, 27, 0.5);
+  }
+  
+  .btn-danger {
+    background-color: #ed1b19;
+    border-color: #ed1b19;
+  }
+  
+  .btn-danger:hover {
+    background-color: #d51414;
+    border-color: #d51414;
+  }
+  

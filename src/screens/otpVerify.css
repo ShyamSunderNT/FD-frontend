@@ -1,0 +1,67 @@
+body {
+    background-color: #f8f9fa; /* Light background for the page */
+    font-family: 'Arial', sans-serif;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: px;
+    text-align: center;
+    
+  }
+  .container {
+    max-width: 80%;
+    padding: 20px;
+  }
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.85); /* Transparent glass effect */
+    
+  }
+
+  .card .form-background {
+    backdrop-filter: blur(10px);
+  }
+  
+  .shared-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  }
+  
+
+  .verify-button {
+    width: 50%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-left: 90px;
+  }
+  .card {
+    margin: 0 auto; /* Center the card */
+    width: 90%; /* Adjust the width as needed */
+  }
+
+  @media (min-width: 992px) {
+    .card {
+      width: 50%; /* Adjust the width for desktops */
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .card {
+      width: 70%; /* Adjust the width for tablets */
+    }
+  }
+
+  @media (max-width: 767px) and (max-height: 823px) {
+    .card {
+      width: 90%; /* Adjust the width for phones */
+    }
+  }

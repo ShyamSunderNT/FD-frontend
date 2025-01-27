@@ -1,0 +1,30 @@
+/* Update Address Modal */
+.address-input {
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  .address-input:focus {
+    border-color: #fb641b;
+    box-shadow: 0 0 5px rgba(251, 100, 27, 0.5);
+  }
+  
+  .update-btn {
+    width: 100%;
+    background-color: #fb641b;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  .update-btn:hover {
+    background-color: #e75a13;
+    cursor: pointer;
+  }
+  

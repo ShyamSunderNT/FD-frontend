@@ -1,0 +1,99 @@
+body {
+    background-color: #eef5ff;
+  }
+  
+  .gradient-custom {
+    background: linear-gradient(87deg, #f5f7fa 0%, #c3cfe2 100%);
+  }
+  
+  .cart-summary-header {
+    color: #878787;
+  }
+  
+  .cart-summary-item {
+    font-size: 1.25rem;
+    background-color: white;
+    color: black;
+  }
+  
+  .cart-summary-discount {
+    color: green;
+  }
+  
+  .cart-summary-total {
+    font-size: 1.5rem;
+  }
+  
+  .discounted-price {
+    color: green;
+  }
+  
+  .delivery-time-text {
+    color: green;
+  }
+  
+  .apply-coupon-input {
+    background-color: white;
+    color: black;
+  }
+  
+  .delivery-charges {
+    color: green;
+  }
+  
+  .delivery-charges-del {
+    color: black;
+  }
+  
+  .checkout-button {
+    background-color: green;
+    color: white;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .cart-item-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .delivery-details p {
+    font-weight: bold;
+  }
+  
+  .delivery-countdown {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.deliverytime{
+    width: 500px !important;
+    margin: 0px;
+}
+.cartbox{
+    width: 500px !important;
+    margin: 0px;
+}
+
+.plusbutton{
+    background-color: aqua !important;
+    height: 40px;
+}
+.onlinecard{
+    width: 500px !important;
+    margin: 0px;
+}
+.Summarybox{
+    width: 500px !important;
+    margin-top: 128px;
+    margin: 0px;
+}
+.summaryprice{
+    background-color: aqua !important;
+}
+.deliverybox{
+    margin-top: 10px;
+}

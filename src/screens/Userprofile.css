@@ -1,0 +1,72 @@
+/* General Styles */
+.profile-container {
+    background-image: url("https://img.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg?t=st=1737726100~exp=1737729700~hmac=9151a361e60e0569e6e0620d893065765a7f42fd92c42ddca9744598d8b47e91&w=1380");
+    filter: brightness(100%);
+    height: 100vh;
+  }
+  
+  /* Card Styles */
+  .profile-card {
+    border-radius: 0.5rem;
+    margin-top: 50px;
+  }
+  
+  .profile-image-section {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  .profile-img {
+    width: 120px !important;
+    border-radius: 50% !important
+  }
+  
+  .profile-username {
+    color: black;
+  }
+  
+  .profile-occupation {
+    color: #ca108a;
+    font-size: 14px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    color: #111111;
+  }
+  
+  .profile-btn {
+    background-color: #fb641b;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Gradient Background */
+  .gradient-custom {
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  }
+  
+  /* Media Queries */
+  @media (min-width: 992px) {
+    .card {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .card {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      width: 90%;
+    }
+  }
+  

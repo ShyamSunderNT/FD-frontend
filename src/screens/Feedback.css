@@ -1,0 +1,48 @@
+
+
+/* General Card Styling */
+.feedback-card {
+    border: none;
+    border-radius: 15px;
+    height: 500px !important;
+  }
+  
+  /* Form Background */
+  .form-background {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 2rem;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    background-color: white;
+    color: #2a2e33;
+    border: 1px solid #222222;
+    border-radius: 8px;
+  }
+  
+  /* Card Responsiveness */
+  .card {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  @media (min-width: 992px) {
+    .card {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .card {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 767px) and (max-height: 823px) {
+    .card {
+      width: 90%;
+    }
+  }
+  
