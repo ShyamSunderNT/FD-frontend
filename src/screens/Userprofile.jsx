@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import UpdatePhoneNumberModal from '../pages/Updatephonenumber';
 import UpdateAddress from '../pages/UpdateAddress';
 import DeleteAccount from '../pages/DeleteAccount';
-import "./UserProfile.css"; // Import the new CSS file
+import "./userProfile.css"; // Import the new CSS file
 
 
 const Userprofile = () => {
@@ -31,7 +31,7 @@ const Userprofile = () => {
     
       const getUserDetails = async () => {
         try {
-          const response = await fetch(`http://localhost:4001/api/user/getuserdetails`, {
+          const response = await fetch(`https://snacks-sprint-shop.onrender.com/api/user/getuserdetails`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
