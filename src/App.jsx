@@ -10,6 +10,7 @@ import Cards from './screens/Cart';
 import MyOrder from './screens/myorder';
 
 
+
 const App = () => {
   return (
     <div>
@@ -22,7 +23,7 @@ const App = () => {
         <Route path='/user-profile' element={<Userprofile />} />
         <Route path='/feedback' element={<Feedback />} />
         <Route path='/order' element={<Cards />} />
-        <Route path='/myorder' element={<MyOrder />} />
+        <Route path='/Myorder' element={<MyOrder />} />
       </Routes>
       </BrowserRouter>
     </div>
