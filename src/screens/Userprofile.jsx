@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import UpdatePhoneNumberModal from '../pages/Updatephonenumber';
 import UpdateAddress from '../pages/UpdateAddress';
 import DeleteAccount from '../pages/DeleteAccount';
-import "./userprofile.css"; // Import the new CSS file
+import "./profile.css"
 
 
 const Userprofile = () => {
